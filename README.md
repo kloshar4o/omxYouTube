@@ -32,7 +32,7 @@ You can also play the video instantly without  parameters like this:
 
 for example: 
 
-    bash playlist.sh 0jDq_KAJARU hd
+    bash play.sh 0jDq_KAJARU hd
 
   [1]: https://www.raspberrypi.org/documentation/raspbian/applications/omxplayer.md
   [2]: https://ytdl-org.github.io/youtube-dl/index.html
