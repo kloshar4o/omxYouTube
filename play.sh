@@ -13,8 +13,8 @@ echo "Video link: https://www.youtube.com/watch?v=$videoID"
 echo "Video & Audio params: "
 if [ -z $2 ]
 then
-	read -p "High quality: [137 140] | Recomended: [best] | Get options: [?]" params
-	if [ $params = "?" ]; then
+	read -p "High quality [137 140] | Recomended [best] | Get options [??]: " params
+	if [ $params = "??" ]; then
 	
 		echo "Getting file types"
 		echo "youtube-dl -F https://www.youtube.com/watch?v=$videoID"
